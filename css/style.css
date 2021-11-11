@@ -1,0 +1,16 @@
+* {margin: 0%; padding: 0; box-sizing: border-box; font-family: sans-serif;}
+.knopka {background-color: #4CAF50;;padding: 12px;font-size: 16px;border: none;}
+.knopka a {color: white}
+.dropdown {width: 80px; height: 42px;}
+a {text-decoration: none; color: rgb(255, 255, 255);}
+.spisok {background-color: rgb(206, 206, 206); width: 90px; margin: 0%; visibility: hidden; transition: transform .03s ease .02s, z-index .01s, .1s linear;}
+.aboba {padding: 6px; transition: transform .03s ease .02s, z-index .01s, .1s linear;}
+.aboba:hover {background-color: #4CAF50;}
+.aboba:hover a {color: white}
+.dropdown:hover .spisok {visibility: visible;}
+.blok {position:absolute; left: 90px; top:42.4px; width: 100px; background-color: rgb(206, 206, 206); visibility: hidden;}
+.zah:hover .blok {visibility: visible;}
+.blokdva {position:absolute; left: 90px; top:72.8px; width: 100px; background-color: rgb(206, 206, 206); visibility: hidden;}
+.shid:hover .blokdva {visibility: visible;}
+.bloktri {position:absolute; left: 100px; top:0px; width: 100px; background-color: rgb(206, 206, 206); visibility: hidden;}
+.ukr:hover .bloktri {visibility: visible;}
